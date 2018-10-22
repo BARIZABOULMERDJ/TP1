@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/Tp1Colco"/>
+<display-name>afficher les resturants</display-name>
+<servlet>
+    <servlet-name>controleur</servlet-name>
+    <servlet-class>Web.controleur</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>contrleur</servlet-name>
+    <servlet-url>/controleur</servlet-url>
+    <welcome-file-list>
+		<welcome-file>accueil.jsp</welcome-file>
+	</welcome-file-list>
+
+
+</servlet-mapping>
